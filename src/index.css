@@ -45,12 +45,15 @@ body {
       .letter-spacing {
         letter-spacing: 7px; /* ajusta el valor según tus preferencias */
       }
-  }
-
-  /* button component 
-  .btn {
-    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black-300  transition-all active:scale-95 text-white mx-auto;
-  }
+      .letter-spacing-contact {
+        letter-spacing: 4px; /* ajusta el valor según tus preferencias */
+      }
+    }
+      
+      /* button component */
+      .btn {
+        @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-gray-950 transition-all active:scale-95 text-white mx-auto;
+      }
 
   .btn-ping {
     @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75;
@@ -61,7 +64,7 @@ body {
   }
 
   */
-  /* hero section */
+  /* hero section 
   .hero_tag {
     @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-black !leading-normal;
   }
