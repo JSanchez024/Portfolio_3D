@@ -22,7 +22,7 @@ const Hero = () => {
 
 
   return (
-    <section className='min-h-screen w-full flex flex-col relative border-2 border-purple-500 '>
+    <section className='min-h-screen w-full flex flex-col relative '>
         <div className=' flex flex-col sm:mt-36 mt-20 c-space gap-3'>
             <p className='sm:text-3xl text-white text-2xl font-medium text-center font-generalsans'>Hola, Soy Joaquin <span className='waving-hand'>✌️</span></p>
             <p className="hero_tag  text-gray-300 letter-spacing">Bienvenidos</p>

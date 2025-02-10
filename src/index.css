@@ -7,9 +7,13 @@
   scroll-behavior: smooth;
   @import url('https://fonts.cdnfonts.com/css/general-sans');
 }
+.fondo{
+  background-color: #0c0c0c;
+}
   
 body {
-  background: #010103;
+  /*background: #010103;*/
+  background: #0c0c0c;
   font-family: 'General Sans', sans-serif;
 }
 
@@ -17,69 +21,68 @@ body {
   .c-space {
     @apply sm:px-10 px-5;
   }
-   .head-text {
+  .head-text {
     @apply sm:text-4xl text-3xl font-semibold;
-    }
+  }
     
-     .nav-ul {
-      @apply flex flex-col items-center gap-4 sm:flex-row md:gap-6 relative z-20;
-      }
-      
-      .nav-li {
-        @apply  text-neutral-400 hover:text-white  max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
-      }
-      
-      .nav-li_a {
-        @apply text-lg md:text-base hover:text-white transition-colors;
-      }
-      
-      
-      .nav-sidebar {
-        @apply absolute left-0 right-0 bg-black backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
-      }
-      
-      .text-gray_gradient {
-        @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
-      }
-      
-      .letter-spacing {
-        letter-spacing: 7px; /* ajusta el valor según tus preferencias */
-      }
-      .letter-spacing-contact {
-        letter-spacing: 4px; /* ajusta el valor según tus preferencias */
-      }
-    }
-      
-      /* button component */
-      .btn {
-        @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-gray-950 transition-all active:scale-95 text-white mx-auto;
-      }
-
-  .btn-ping {
-    @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75;
+  .nav-ul {
+    @apply flex flex-col items-center gap-4 sm:flex-row md:gap-6 relative z-20;
   }
-
-  .btn-ping_dot {
-    @apply relative inline-flex rounded-full h-3 w-3 bg-green-500;
+   
+  .nav-li {
+    @apply  text-neutral-400 hover:text-white  max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
   }
-
-  */
-  /* hero section 
-  .hero_tag {
-    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-black !leading-normal;
+   
+  .nav-li_a {
+    @apply text-lg md:text-base hover:text-white transition-colors;
   }
+   
+  .nav-sidebar {
+    @apply absolute left-0 right-0 bg-black backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
+  }
+   
+  .text-gray_gradient {
+    @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
+  }
+   
+  .letter-spacing {
+    letter-spacing: 7px; 
+  }
+  .letter-spacing-contact {
+    letter-spacing: 4px; 
+  }
+}
+      
+/* button component */
+.btn {
+  @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md transition-all active:scale-95 text-white mx-auto;
+}
 
-  /* about section 
+.btn-ping {
+  @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75 ;
+}
+
+.btn-ping_dot {
+  @apply relative inline-flex rounded-full h-3 w-3 bg-green-500;
+}
+
+  
+ /*hero section */
+.hero_tag {
+  @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-black !leading-normal;
+}
+
+  /* about section */
   .grid-container {
-    @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply w-full h-full border border-black bg-black rounded-lg sm:p-7 p-3 flex flex-col gap-5;
   }
 
   .grid-headtext {
-    @apply text-xl font-semibold mb-2 text-white font-generalsans;
+    @apply text-xl font-semibold mb-2 text-white;
   }
 
   .grid-subtext {
-    @apply text-[#afb0b6] text-base font-generalsans;
+    @apply  text-base text-white;
   }
 
   .copy-container {
@@ -89,7 +92,7 @@ body {
   /* projects section  
   .arrow-btn {
     @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient;
-  }
+  }*/
 
   .tech-logo {
     @apply w-10 h-10 rounded-md p-2 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
@@ -158,7 +161,8 @@ body {
   .social-icon {
     @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
   }
-}*/
+    */
+
 
 .waving-hand {
   animation-name: wave-animation;

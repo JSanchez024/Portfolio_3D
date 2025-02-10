@@ -23,11 +23,11 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Bienes Raices',
+      desc: 'Bienes Raices es una plataforma de venta de casas y departamentos, que te permite encontrar una propiedad de tu sueño y contactar con el dueño de la propiedad para realizar una compra.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Este proyecto se desarrollo con HTML CSS SASS JavaScript y PHP. Cuenta con CRUD y autenticación de usuarios.',
+      href: 'https://www.youtube.com/watch?v=GgPJ8wwhLM0',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -39,32 +39,32 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
+          name: 'HTML',
           path: '/assets/react.svg',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
+          name: 'CSS',
           path: 'assets/tailwindcss.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
+          name: 'JavaScript',
           path: '/assets/typescript.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
+          name: 'PHP',
           path: '/assets/framer.png',
         },
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Barberia - Barber Shop',
+      desc: 'Barberia es una plataforma de reserva de citas para una barbería, que te permite encontrar una cita con un profesional de la barbería y realizar una reservacion.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        'Este proyecto se desarrollo con HTML CSS SASS y JavaScript. Cuenta con CRUD y autenticación de usuarios. Tambien cuenta con un area de administracion.',
+      href: 'https://www.youtube.com/watch?v=XqFxpvWLFs0',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -76,32 +76,32 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
+          name: 'HTML',
           path: '/assets/react.svg',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
+          name: 'CSS',
           path: 'assets/tailwindcss.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
+          name: 'JAvaScript',
           path: '/assets/typescript.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
+          name: 'PHP',
           path: '/assets/framer.png',
         },
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'UpTask - Project Management App',
+      desc: 'UpTask es una plataforma de gestión de proyectos, que te permite crear, editar, eliminar y organizar tus tareas de manera eficiente.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'Este proyecto se desarrollo con HTML CSS SASS y JavaScript. Cuenta con CRUD autenticación de usuarios.',
+      href: 'https://www.youtube.com/watch?v=qTgyEj2wn3Q',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -136,10 +136,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'DevWebCamp - Online Conference App',
+      desc: 'DevWebCamp es una plataforma de conferencias online, que te permite encontrar una conferencia de tu interés y contactar con el organizador de la conferencia para realizar una compra.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+        'Este proyecto se desarrollo con HTML CSS SASS y JavaScript. Cuenta con CRUD y autenticación de usuarios. Tambien cuenta con un area de administracion.',
       href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
@@ -173,10 +173,84 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      title: 'Carrito de Compras',
+      desc: 'Carrito de compras de Guitarras',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+        'Este proyecto se desarrollo con React.js, TailwindCSS y TypeScript.',
+      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: 'Calculadora de Propinas',
+      desc: 'En base a un menu de comida se calcula la propina y el total a pagar.',
+      subdesc:
+        'Este proyecto se desarrollo con React.js, TailwindCSS y TypeScript.',
+      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: 'Calculadora de Calorias',
+      desc: 'En este sitio web puedes calcular tus calorias diarias, tanto de comida como de ejercicios.',
+      subdesc:
+        'Este proyecto se desarrollo con React.js, TailwindCSS y TypeScript.',
       href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
