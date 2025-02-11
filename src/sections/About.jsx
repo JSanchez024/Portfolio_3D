@@ -1,8 +1,11 @@
 import { useState } from 'react'
 import Globe from 'react-globe.gl'
 import { Button } from '../components/Button'
+import { useMediaQuery } from 'react-responsive';
 
 export const About = () => {
+
+    const deviceType = navigator.userAgent.match(/mobile|android|iphone|ipad|ipod|blackberry|windows phone/i) ? 'mobile' : 'desktop';
     
     const [hasCopied, setHasCopied] = useState(false);
     const handleCopy = () => {
@@ -16,7 +19,7 @@ export const About = () => {
     }
 
   return (
-    <section className='c-space my-20 '>
+    <section className='c-space my-20' id='about'>
         <div className='grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full'>
 
             {/*Primer container*/}
@@ -60,6 +63,7 @@ export const About = () => {
                             shadowGraticules
                             globeImageUrl={'//unpkg.com/three-globe/example/img/earth-day.jpg'}
                             bumpImageUrl={'//unpkg.com/three-globe/example/img/earth-topology.png'}
+                            enableZoom={deviceType !== 'mobile'}
                            
                         />
                     </div>

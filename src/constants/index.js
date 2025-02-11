@@ -40,22 +40,22 @@ export const navLinks = [
         {
           id: 1,
           name: 'HTML',
-          path: '/assets/react.svg',
+          path: '/assets/html.png',
         },
         {
           id: 2,
           name: 'CSS',
-          path: 'assets/tailwindcss.png',
+          path: 'assets/css3.png',
         },
         {
           id: 3,
           name: 'JavaScript',
-          path: '/assets/typescript.png',
+          path: '/assets/javascript.png',
         },
         {
           id: 4,
           name: 'PHP',
-          path: '/assets/framer.png',
+          path: '/assets/php.png',
         },
       ],
     },
@@ -63,7 +63,7 @@ export const navLinks = [
       title: 'Barberia - Barber Shop',
       desc: 'Barberia es una plataforma de reserva de citas para una barbería, que te permite encontrar una cita con un profesional de la barbería y realizar una reservacion.',
       subdesc:
-        'Este proyecto se desarrollo con HTML CSS SASS y JavaScript. Cuenta con CRUD y autenticación de usuarios. Tambien cuenta con un area de administracion.',
+        'Este proyecto se desarrollo con HTML CSS SASS JavaScript y PHP. Cuenta con CRUD y autenticación de usuarios. Tambien cuenta con un area de administracion.',
       href: 'https://www.youtube.com/watch?v=XqFxpvWLFs0',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
@@ -77,22 +77,22 @@ export const navLinks = [
         {
           id: 1,
           name: 'HTML',
-          path: '/assets/react.svg',
+          path: '/assets/html.png',
         },
         {
           id: 2,
           name: 'CSS',
-          path: 'assets/tailwindcss.png',
+          path: 'assets/css3.png',
         },
         {
           id: 3,
-          name: 'JAvaScript',
-          path: '/assets/typescript.png',
+          name: 'JavaScript',
+          path: '/assets/javascript.png',
         },
         {
           id: 4,
           name: 'PHP',
-          path: '/assets/framer.png',
+          path: '/assets/php.png',
         },
       ],
     },
@@ -100,7 +100,7 @@ export const navLinks = [
       title: 'UpTask - Project Management App',
       desc: 'UpTask es una plataforma de gestión de proyectos, que te permite crear, editar, eliminar y organizar tus tareas de manera eficiente.',
       subdesc:
-        'Este proyecto se desarrollo con HTML CSS SASS y JavaScript. Cuenta con CRUD autenticación de usuarios.',
+        'Este proyecto se desarrollo con HTML CSS SASS JavaScript y PHP. Cuenta con CRUD autenticación de usuarios.',
       href: 'https://www.youtube.com/watch?v=qTgyEj2wn3Q',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
@@ -115,23 +115,23 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'HTML',
+          path: '/assets/html.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS',
+          path: 'assets/css3.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'JavaScript',
+          path: '/assets/javascript.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'PHP',
+          path: '/assets/php.png',
         },
       ],
     },
@@ -139,8 +139,8 @@ export const navLinks = [
       title: 'DevWebCamp - Online Conference App',
       desc: 'DevWebCamp es una plataforma de conferencias online, que te permite encontrar una conferencia de tu interés y contactar con el organizador de la conferencia para realizar una compra.',
       subdesc:
-        'Este proyecto se desarrollo con HTML CSS SASS y JavaScript. Cuenta con CRUD y autenticación de usuarios. Tambien cuenta con un area de administracion.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        'Este proyecto se desarrollo con HTML CSS SASS JavaScript y PHP. Cuenta con CRUD y autenticación de usuarios. Tambien cuenta con un area de administracion.',
+      href: 'https://www.youtube.com/watch?v=oJU5M9ic2jo',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
@@ -152,23 +152,23 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'HTML',
+          path: '/assets/html.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS',
+          path: 'assets/css3.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'JavaScript',
+          path: '/assets/javascript.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'PHP',
+          path: '/assets/php.png',
         },
       ],
     },
@@ -202,11 +202,6 @@ export const navLinks = [
           name: 'TypeScript',
           path: '/assets/typescript.png',
         },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
       ],
     },
     {
@@ -215,7 +210,7 @@ export const navLinks = [
       subdesc:
         'Este proyecto se desarrollo con React.js, TailwindCSS y TypeScript.',
       href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/project6.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -238,11 +233,6 @@ export const navLinks = [
           id: 3,
           name: 'TypeScript',
           path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
         },
       ],
     },
@@ -252,7 +242,7 @@ export const navLinks = [
       subdesc:
         'Este proyecto se desarrollo con React.js, TailwindCSS y TypeScript.',
       href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/project7.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -275,11 +265,6 @@ export const navLinks = [
           id: 3,
           name: 'TypeScript',
           path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
         },
       ],
     },
@@ -296,32 +281,4 @@ export const navLinks = [
     };
   };
   
-  export const workExperiences = [
-    {
-      id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
-      animation: 'victory',
-    },
-    {
-      id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
-      animation: 'clapping',
-    },
-    {
-      id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
-      animation: 'salute',
-    },
-  ];
+  

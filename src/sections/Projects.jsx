@@ -1,9 +1,25 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { myProjects } from '../constants'
-import { div } from 'three/tsl';
+import { useState } from 'react'
+import { Center, OrbitControls } from '@react-three/drei';
+import CanvasLoader from '../components/CanvasLoader';
+import { DemoComputer } from '../components/DemoComputer';
+import { Canvas } from '@react-three/fiber';
 
-const Projects = () => {
-    const currentProject = myProjects[0];
+const projectCount = myProjects.length;
+
+export const Projects = () => {
+    const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
+    const currentProject = myProjects[selectedProjectIndex];
+    const handleNavigation = (direction) => {
+        setSelectedProjectIndex((prevIndex) => {
+            if(direction === 'previous') {
+                return prevIndex === 0 ? projectCount -1 : prevIndex - 1;
+            } else {
+                return prevIndex === projectCount -1 ? 0 : prevIndex + 1;
+            }
+        })
+    }
 
 
   return (
@@ -28,8 +44,8 @@ const Projects = () => {
                 <div className='flex items-center justify-between flex-wrap gap-5'>
                     <div className='flex flex-wrap gap-3'>
                         {currentProject.tags.map((tag, index) => (
-                            <div key={index} className='tech-logo'>
-                                <img src={tag.path} alt={tag.name} />
+                            <div key={index} className='tech-logo '>
+                                <img src={tag.path} alt={tag.name} className=' h-10' />
                             </div>
                         ))}
                     </div>
@@ -40,11 +56,45 @@ const Projects = () => {
                         <img src="/assets/arrow-up.png" alt="flecha" className='w-3 h-3' />
                     </a>
                 </div>
+
+                {/*Flechas izquierda y derecha */}
+                
+                <div className='flex justify-between items-center mt-7'>
+                    <button className='arrow-btn' onClick={() => handleNavigation('previous')}>
+                        <img src="/assets/left-arrow.png" alt="flecha izquierda" className='w-4 h-4 cursor-pointer' />
+                    </button>
+                    <button className='arrow-btn' onClick={() => handleNavigation('next')}>
+                        <img src="/assets/right-arrow.png" alt="flecha derecha" className='w-4 h-4 cursor-pointer' />
+                    </button>
+                </div>
+            </div>
+
+            {/*Computador 3D con los Proyectos*/}
+            <div className='border border-black bg-black rounded-lg h-96 md:h-full'>
+                <Canvas>
+                    <ambientLight intensity={Math.PI} />
+                    <directionalLight position={[10, 10, 5]} />
+                    <Center>
+                        <Suspense fallback={<CanvasLoader />}>
+                            <group 
+                                scale={2}
+                                position={[0, -3, 0]}
+                                rotation={[0, -0.1, 0]}    
+                            >
+                                <DemoComputer
+                                    texture={currentProject.texture}
+                                />
+
+                            </group>
+                        </Suspense>
+                    </Center>
+
+                    <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
+                </Canvas>
+
             </div>
 
         </div>
     </section>
   )
-}
-
-export default Projects
+} 
