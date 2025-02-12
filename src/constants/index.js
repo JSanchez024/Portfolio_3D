@@ -280,5 +280,35 @@ export const navLinks = [
       targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
     };
   };
+
+  export const workExperiences = [
+    {
+      id: 1,
+      name: 'Proyectos con HTML CSS JavaScript, PHP y MySQL',
+      pos: 'DevWebCamp, Barberia, Bienes Raices, UpTask',
+      duration: '2024',
+      title: "Realice proyectos personales los cuales me ayudaron a avanzar en el mundo de la tecnologia. Estos proyectos contenian MVC autenticacion de usuarios, CRUD, recuperacion de contrasenias. Tambien aprendi lo que es base de datos relacionales con MySQL.",
+      icon: '/assets/navegador.png',
+      animation: 'victory',
+    },
+    {
+      id: 2,
+      name: 'Proyectos con React.js, TailwindCSS y TypeScript',
+      pos: 'Calculadora de Calorias, Calculadora de Propinas, Carrito de Compras',
+      duration: '2025 - Present',
+      title: "Proyectos pequeños que implementan tecnologias como React.js, TailwindCSS y TypeScript. Estos proyectos me permiten crear aplicaciones web con un diseño moderno y una buena experiencia de usuario ",
+      icon: '/assets/codigo.png',
+      animation: 'salute',
+    },
+    {
+      id: 3,
+      name: 'Aprendiendo nuevas tecnologias',
+      pos: 'MERN PERN APIs',
+      duration: '2015',
+      title: "Actualmente me encuentro en constante crecimiento ya que estoy tomando un curso de tecnologias tales como los ambientales de MERN y PERN (Mongoose, Express, React, Node.js, Typescript, Next14, TailwindCSS, PostgreSQL y un poco de Next14). Estas tecnologias me ayudaran a mejorar el desempeño y la eficiencia de mis proyectos.",
+      icon: '/assets/work3.png',
+      animation: 'clapping',
+    },
+  ];
   
   
