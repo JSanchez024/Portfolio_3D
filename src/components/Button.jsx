@@ -1,6 +1,6 @@
 
-
 export const Button = ({ name, isBeam = false, containerClass }) => {
+
   return (
     <button className={`btn ${containerClass} letter-spacing-contact fondo`}>
         {isBeam && (

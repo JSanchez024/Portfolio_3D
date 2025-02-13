@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Globe from 'react-globe.gl'
 import { Button } from '../components/Button'
-import { useMediaQuery } from 'react-responsive';
 
 export const About = () => {
 
@@ -71,12 +70,14 @@ export const About = () => {
                         <p className='grid-headtext'>Estoy disponible para trabajo remoto</p>
                         <p className='grid-subtext'>Vivo en Chile y tengo disponibilidad inmediata para nuevos desafios.</p>
 
-                        <Button
+                        <Button 
                             name='Contactame'
                             isBeam
                             containerClass='w-full mt-10'
+                            
                         />
                     </div>
+        
                 </div>
             </div>
 
@@ -98,7 +99,6 @@ export const About = () => {
                     <img src="/assets/grid4.png" alt="grid-4" className='w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top' />
 
                     <div className='space-y-2'>
-                        <p className='grid-subtext text-center'>Contactame</p>
                         <p className='text-white text-center animate-bounce mt-6'>joaquin.sanchez.suazo@gmail.com</p>
                         <div className='copy-container' onClick={handleCopy}>
                             <img src={hasCopied ? '/assets/tick.svg' :
