@@ -83,7 +83,7 @@ body {
   }
 
   .grid-headtext {
-    @apply text-xl font-semibold mb-2 text-white;
+    @apply text-xl font-semibold mb-2 text-white pb-5;
   }
 
   .grid-subtext {
@@ -153,16 +153,27 @@ body {
   .social-icon {
     @apply w-10 h-10 rounded-full flex justify-center items-center bg-black border border-black cursor-pointer hover:scale-120 transition duration-300;
   }
+  .download-button {
+    background-color: #4CAF50; /* color de fondo */
+    color: #fff; /* color de texto */
+    border: none; /* borde */
+    padding: 8px 16px; /* relleno */
+    font-size: 16px; /* tamaño de fuente */
+    cursor: pointer; /* cursor */
+    border-radius: 5px; /* radio de esquina */
+    transition: background-color 0.3s ease; /* transición */
+  }
   
 
 
-.waving-hand {
-  animation-name: wave-animation;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  transform-origin: 70% 70%;
-  display: inline-block;
-}
+
+  .waving-hand {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
 
 
 .arrow-gradient {
