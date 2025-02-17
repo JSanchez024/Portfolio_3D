@@ -7,7 +7,7 @@ export const navLinks = [
     {
       id: 2,
       name: 'Sobre Mi',
-      href: '#sobremi',
+      href: '#about',
     },
     {
       id: 3,

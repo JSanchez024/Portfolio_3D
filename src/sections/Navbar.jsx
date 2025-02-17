@@ -45,7 +45,7 @@ const Navbar = () => {
 
                 <nav className='sm:flex hidden'>
                     <NavItems
-
+                    
                     />
                 </nav>
             </div>
