@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Globe from 'react-globe.gl'
-import { Button } from '../components/Button'
 
 
 export const About = () => {
@@ -71,15 +70,11 @@ export const About = () => {
                         <p className='grid-headtext'>Estoy disponible para trabajo remoto</p>
                         <p className='grid-subtext'>Vivo en Chile y tengo disponibilidad inmediata para nuevos desafios.</p>
 
-                        
-                        <Button 
-                            name='Contactame'
-                            isBeam
-                            containerClass='w-full mt-10'
-                            onClick={() => window.location.href = './sections/Contact'}
-                            href='/contact'
-                            
-                        />
+                        {<a href="#contact" className='text-white btn letter-spacing-contact flex mt-15 border-4 w-full'>
+                            Contactame
+                            <span className="btn-ping_contact absolute"/>
+                            <span className="btn-ping_dot ml-40"/>
+                        </a>}
                     </div>
         
                 </div>
